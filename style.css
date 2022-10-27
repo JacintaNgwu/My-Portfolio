@@ -91,7 +91,7 @@ body {
 
 .headline {
   background-color: #fff;
-  background-image: url(/Images/header-illsutration-mobile@2x.png);
+  background-image: url("Images/header-illsutration-mobile@2x.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
