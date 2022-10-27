@@ -17,14 +17,24 @@ body {
   width: 327px;
 }
 
-.title {
+.content {
+  justify-content: center;
+  align-items: center;
+}
+
+.title .tiltle {
   text-align: center;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #452589;
   transition: ease-in-out transform 0.5;
   transform: translate(0);
+}
+.title {
+  color: #172B4D;
+}
+.tiltle  {
+  color: #36b37e;
 }
 
 .title:hover {
@@ -40,33 +50,35 @@ body {
 }
 
 .social-media {
-  text-decoration: none;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 10px;
+ margin-top: 20px;
+}
+
+.social-media li {
   list-style: none;
-  display: flex;
-  gap: 20px;
-  width: 160px;
-  height: 10px;
-  left: 700px;
-  position: absolute;
 }
 
 .logo {
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 25px;
-  color: #6070ff;
-  padding: 20px;
-  width: 80px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #28352f;
+  height: 28px;
+  width: 90px;
 }
 
 .icone-clos {
-  width: 15px;
-  height: 15px;
+  width: 18px;
+  height: 12px;
   position: absolute;
-  top: 30px;
-  bottom: 20px;
-  right: 590px;
+  top: 6px;
+  left: 900px;
 }
 
 .headline {
