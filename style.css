@@ -22,6 +22,18 @@ body {
   align-items: center;
 }
 
+.tiltle {
+  color: #36b37e;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.title {
+  color: #172b4d;
+  text-align: center;
+  padding-top: 50px;
+}
+
 .title .tiltle {
   text-align: center;
   font-weight: 700;
@@ -29,14 +41,6 @@ body {
   line-height: 52px;
   transition: ease-in-out transform 0.5;
   transform: translate(0);
-}
-
-.tiltle {
-  color: #36b37e;
-}
-
-.title {
-  color: #172b4d;
 }
 
 .title:hover {
@@ -49,6 +53,7 @@ body {
   line-height: 28px;
   color: #172849;
   text-align: center;
+  padding-top: 50px;
 }
 
 .social-media {
@@ -57,6 +62,7 @@ body {
   justify-content: center;
   gap: 10px;
   margin-top: 20px;
+  padding-top: 20px;
 }
 
 .social-media li {
@@ -86,4 +92,6 @@ body {
 .headline {
   background-color: #fff;
   background-image: url(/Images/header-illsutration-mobile@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
