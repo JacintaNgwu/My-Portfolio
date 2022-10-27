@@ -30,11 +30,13 @@ body {
   transition: ease-in-out transform 0.5;
   transform: translate(0);
 }
-.title {
-  color: #172B4D;
-}
-.tiltle  {
+
+.tiltle {
   color: #36b37e;
+}
+
+.title {
+  color: #172b4d;
 }
 
 .title:hover {
@@ -50,11 +52,11 @@ body {
 }
 
 .social-media {
- display: flex;
- align-items: center;
- justify-content: center;
- gap: 10px;
- margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
 }
 
 .social-media li {
