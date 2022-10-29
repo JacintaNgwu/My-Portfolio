@@ -14,6 +14,18 @@ body {
   background: #e5e5e5;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  align-items: center;
+}
+
+.fa-bars {
+padding: 8px;
+font-size: 20px;
+}
+
 .wrapper {
   width: 375px;
   height: 5800px;
@@ -75,6 +87,7 @@ body {
 }
 
 .logo {
+  padding: 10px 12px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -82,8 +95,6 @@ body {
   font-size: 20px;
   line-height: 28px;
   color: #28352f;
-  height: 28px;
-  width: 90px;
 }
 
 .icone-clos {
@@ -163,7 +174,7 @@ body {
   align-items: center;
   padding: 16px;
   gap: 16px;
-  width: 327px;
+  width: 308px;
   height: 222px;
   left: calc(50% - 327px / 2);
   border-radius: 8px;
@@ -189,7 +200,7 @@ body {
 }
 
 .language {
-  padding: 10px 16px;
+  padding: 12px 10px;
   font-weight: 600;
   font-size: 8px;
   color: #3a4a42;
@@ -215,6 +226,13 @@ body {
   border-radius: 5px;
   border: 1px solid #36b37f;
   cursor: pointer;
+}
+
+.about-me {
+  background-color: #fff;
+  background: url("Images/illustration-\ about\ me-\ mobile\ \(1\).png") left bottom, url("Images/illustration\ 1-\ about\ me-mobile.png") right top;
+  background-size: 380px, 70px, auto;
+  background-repeat: no-repeat;
 }
 
 .About-me {
@@ -271,15 +289,11 @@ body {
   height: 352px;
   box-sizing: border-box;
   margin: 50px 25px;
-}
-
-.Ellipse {
-  width: 80px;
-  height: 80px;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 50px;
-  margin: 50px 120px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .tag {
@@ -291,17 +305,18 @@ body {
 }
 
 .text {
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   gap: 10px;
   display: flex;
-  margin-top: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px; 
 }
  
 .Tag {
-  padding: 8px 12px;
+  padding: 12px;
   font-weight: 600;
-  font-size: 9px;
+  font-size: 12px;
   color: #68c69e;
   background: #fff;
   border-radius: 8px;
@@ -367,4 +382,11 @@ body {
   margin-left: 60px;
   padding: 10px;
   font-weight: 200;
+}
+
+.contact {
+  background-color: #fff;
+  background: url("Images/illustration-contact-form.png") right top;
+  background-size: 50px 100px;
+  background-repeat: no-repeat;
 }

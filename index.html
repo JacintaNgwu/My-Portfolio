@@ -6,14 +6,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
     </head>
     <body>
         <div class="wrapper">
-            <header>
+            <header class="navbar">
                 <div class="logo">Welcome</div>
-                <button class="button-header">
-                    <img class="icone-clos" src="Images/Union.png" alt="-vector">
-                </button>
+                <i class="fa-solid fa-bars dark-blue"></i> 
             </header>
             <main>
                 <section class="headline">
@@ -125,6 +125,7 @@
               </div>
             </section>
           
+            <section class="about-me">
           <div class="primary-text">
             <h1 class="About-me">About me</h1>
             <p class="support-text">
@@ -133,10 +134,13 @@
             </p>
             <button class="project-button-2" type="button">Get My Resume</button>
           </div>
+            </section>
 
           <section class="card-work">
-            <div class="card">
-             <button class="Ellipse"></button>
+            
+             
+              <img class="lang" src="./Images/languages.svg" alt="icone language" />
+             
              <h2 class="tag">
               Language
             </h2>
@@ -146,26 +150,28 @@
               <li class="Tag" >Javascript</li>
               <li class="Tag">html</li>
             </ul>
-            </div>
+            
           </section>
           <section class="card-work">
-            <div class="card">
-             <button class="Ellipse"></button>
+             
+              <img class="lang" src="./Images/frameworks.svg" alt="icone language" />
+             
              <h2 class="tag">
               Framework
             </h2>
             <ul class="text">
               <li class="Tag" >Boostrap</li>
               <li class="Tag">Ruby on rails</li>
-              <li class="Tag" >RSpec</li>
+              <li class="Tag" >RSpec</li> 
               <li class="Tag">Capybara</li>
               <li class="Tag">Selenium</li>
             </ul>
-            </div>
+          
           </section>
           <section class="card-work">
-            <div class="card">
-             <button class="Ellipse"></button>
+             
+              <img class="lang" src="./Images/skills.svg" alt="icone language" />
+             
              <h2 class="tag">
               Skills
             </h2>
@@ -176,7 +182,6 @@
               <li class="Tag">Gitlab</li>
               <li class="Tag">Terminal</li>
             </ul>
-            </div>
           </section>
 
           <div class="primary-text2">
@@ -184,7 +189,6 @@
               I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
             </h2>
           </div>
-        </main>
 
         <div class="form">
         <form>
@@ -202,6 +206,7 @@
         </form>
       </div>
 
+      <section class="contact">
       <button class="project-button-3" type="button">Get in touch</button>
 
       <ul class="social-media2">
@@ -225,6 +230,8 @@
       <p class="supporting-text">
         jacintangwu9900@gmail.com
       </p>
+      </section>
+    </main>
         </div>
     </body>
 </html>
