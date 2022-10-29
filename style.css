@@ -128,34 +128,30 @@ body {
   margin-bottom: 40px;
 }
 
-.work {
+.work-section {
+  display: grid;
   justify-content: center;
   align-items: center;
+  padding-top: 150px;
+}
+
+.work {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
 }
 
 .Des {
-  width: 327px;
   height: 97px;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   display: flex;
   align-items: center;
-  text-align: center;
   color: #172b4d;
-  padding-top: 220px;
-  margin-left: 60px;
-}
-
-.Ind {
-  width: 48px;
-  height: 4px;
-  border-radius: 24px;
-  background: #36b37e;
-  left: 139.5px;
-  top: 121px;
-  margin-left: 150px;
-  margin-top: 70px;
 }
 
 .Work {
@@ -163,9 +159,6 @@ body {
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   margin: 0 32px;
-}
-
-.margin-section {
   margin-top: 50px;
 }
 
@@ -226,6 +219,15 @@ body {
   border-radius: 5px;
   border: 1px solid #36b37f;
   cursor: pointer;
+}
+
+.project-button:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  transition: ease-in-out;
+}
+
+.project-button:active {
+  background: #008552;
 }
 
 .about-me {
