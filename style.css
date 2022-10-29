@@ -22,8 +22,8 @@ body {
 }
 
 .fa-bars {
-padding: 8px;
-font-size: 20px;
+  padding: 8px;
+  font-size: 20px;
 }
 
 .wrapper {
@@ -71,7 +71,7 @@ font-size: 20px;
   padding-top: 50px;
 }
 
-.social-media, 
+.social-media,
 .social-media2 {
   display: flex;
   align-items: center;
@@ -229,7 +229,6 @@ font-size: 20px;
 }
 
 .about-me {
-  background-color: #fff;
   background: url("Images/illustration-\ about\ me-\ mobile\ \(1\).png") left bottom, url("Images/illustration\ 1-\ about\ me-mobile.png") right top;
   background-size: 380px, 70px, auto;
   background-repeat: no-repeat;
@@ -310,9 +309,9 @@ font-size: 20px;
   gap: 10px;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
- 
+
 .Tag {
   padding: 12px;
   font-weight: 600;
@@ -332,7 +331,7 @@ font-size: 20px;
   height: 363px;
   padding-top: 20px;
   margin: 20px;
-} 
+}
 
 .form {
   margin-top: 120px;
@@ -385,7 +384,6 @@ font-size: 20px;
 }
 
 .contact {
-  background-color: #fff;
   background: url("Images/illustration-contact-form.png") right top;
   background-size: 50px 100px;
   background-repeat: no-repeat;
