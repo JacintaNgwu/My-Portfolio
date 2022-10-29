@@ -17,7 +17,7 @@ body {
 .wrapper {
   width: 375px;
   height: 5800px;
-  background: #ffffff;
+  background: #fff;
 }
 
 .content {
@@ -59,7 +59,8 @@ body {
   padding-top: 50px;
 }
 
-.social-media, .social-media2 {
+.social-media, 
+.social-media2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,7 +69,8 @@ body {
   padding-top: 20px;
 }
 
-.social-media, .social-media2 li {
+.social-media,
+ .social-media2 li {
   list-style: none;
 }
 
@@ -107,10 +109,10 @@ body {
   position: absolute;
   width: 40px;
   height: 40px;
-  left: calc(50% - 40px/2 + 0.5px);
+  left: calc(50% - 40px /2 + 0.5px);
   bottom: 4px;
-  background-color: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 32px;
   margin-bottom: 40px;
 }
@@ -149,7 +151,7 @@ body {
   background: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
-  margin: 0 32px ;
+  margin: 0 32px;
 }
 
 .margin-section {
@@ -157,19 +159,18 @@ body {
 }
 
 .Text {
-  background: #ffffff;
+  background: #fff;
   align-items: center;
   padding: 16px;
   gap: 16px;
   width: 327px;
   height: 222px;
-  left: calc(50% - 327px/2);
+  left: calc(50% - 327px /2);
   border-radius: 8px;
   margin-top: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .project-title {
@@ -178,21 +179,20 @@ body {
   line-height: 32px;
   text-align: center;
   color: #3a4a42;
-  
 }
 
 .Program {
- align-items: flex-start;
- justify-content: center;
- gap: 10px;
- display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  display: flex;
 }
 
 .language {
   padding: 10px 16px;
   font-weight: 600;
   font-size: 8px;
-  color: #3A4A42;
+  color: #3a4a42;
   background: #ebf0ee;
   border-radius: 5px;
   list-style: none;
@@ -208,7 +208,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #fff;
   background: #36b37f;
   padding: 12px;
   bottom: 8px;
@@ -245,7 +245,8 @@ body {
   margin-left: 90px;
 }
 
-.project-button-2, .project-button-3 {
+.project-button-2,
+ .project-button-3 {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -253,7 +254,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #fff;
   background: #36b37f;
   padding: 12px;
   margin-top: 30px;
@@ -275,14 +276,14 @@ body {
 .Ellipse {
   width: 80px;
   height: 80px;
-  background: #ffffff;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 50px;
   margin: 50px 120px;
 }
 
 .tag {
- margin-top: 20px;
+  margin-top: 20px;
   font-size: 24px;
   font-weight: 600;
   color: #344563;
@@ -297,25 +298,25 @@ body {
   margin-top: 20px;
  }
  
- .Tag {
-   padding: 8px 12px;
-   font-weight: 600;
-   font-size: 9px;
-   color: #68c69e;
-   background: #ffffff;
-   border-radius: 8px;
-   list-style: none;
+.Tag {
+  padding: 8px 12px;
+  font-weight: 600;
+  font-size: 9px;
+  color: #68c69e;
+  background: #fff;
+  border-radius: 8px;
+  list-style: none;
  }
 
- .support-text2 {
-  font-weight: 600px;
-  font-size: 40px;
-  text-align: center;
-  color: #172b4d;
-  width: 327px;
-  height: 363px;
-  padding-top: 20px;
-  margin: 20px;
+.support-text2 {
+ font-weight: 600px;
+ font-size: 40px;
+ text-align: center;
+ color: #172b4d;
+ width: 327px;
+ height: 363px;
+ padding-top: 20px;
+ margin: 20px;
 } 
 
 .form {
@@ -327,7 +328,7 @@ body {
   height: 48px;
   border-radius: 4px;
   border: 1px solid #d0d9d4;
-  background: #ffffff;
+  background: #fff;
   margin-left: 20px;
   color: #6b778c;
   font-size: 15px;
@@ -341,12 +342,13 @@ body {
   margin-top: 20px;
   margin-left: 20px;
 }
+
 .Enter input{
   width: 327px;
   height: 114px;
   border-radius: 4px;
   border: 1px solid #60c095;
-  background: #ffffff;
+  background: #fff;
   color: #6b778c;
   font-size: 15px;
   font-weight: 400;
@@ -366,4 +368,3 @@ body {
   padding: 10px;
   font-weight: 200;
 }
-
