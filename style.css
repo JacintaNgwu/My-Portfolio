@@ -70,7 +70,7 @@ body {
 }
 
 .social-media,
- .social-media2 li {
+.social-media2 li {
   list-style: none;
 }
 
@@ -109,7 +109,7 @@ body {
   position: absolute;
   width: 40px;
   height: 40px;
-  left: calc(50% - 40px /2 + 0.5px);
+  left: calc(50% - 40px / 2 + 0.5px);
   bottom: 4px;
   background-color: #fff;
   border: 1px solid #dfe1e6;
@@ -165,7 +165,7 @@ body {
   gap: 16px;
   width: 327px;
   height: 222px;
-  left: calc(50% - 327px /2);
+  left: calc(50% - 327px / 2);
   border-radius: 8px;
   margin-top: 250px;
   display: flex;
@@ -246,7 +246,7 @@ body {
 }
 
 .project-button-2,
- .project-button-3 {
+.project-button-3 {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -290,13 +290,13 @@ body {
   text-align: center;
 }
 
-.text  {
+.text {
   align-items: flex-start;
   justify-content: center;
   gap: 10px;
   display: flex;
   margin-top: 20px;
- }
+}
  
 .Tag {
   padding: 8px 12px;
@@ -306,17 +306,17 @@ body {
   background: #fff;
   border-radius: 8px;
   list-style: none;
- }
+}
 
 .support-text2 {
- font-weight: 600px;
- font-size: 40px;
- text-align: center;
- color: #172b4d;
- width: 327px;
- height: 363px;
- padding-top: 20px;
- margin: 20px;
+  font-weight: 600px;
+  font-size: 40px;
+  text-align: center;
+  color: #172b4d;
+  width: 327px;
+  height: 363px;
+  padding-top: 20px;
+  margin: 20px;
 } 
 
 .form {
@@ -343,7 +343,7 @@ body {
   margin-left: 20px;
 }
 
-.Enter input{
+.Enter input {
   width: 327px;
   height: 114px;
   border-radius: 4px;
