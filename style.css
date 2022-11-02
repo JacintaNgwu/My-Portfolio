@@ -31,7 +31,7 @@ body {
   width: 375px;
   height: 6715px;
   background: #fff;
-} 
+}
 
 .content {
   justify-content: center;
@@ -50,12 +50,12 @@ body {
 }
 
 .title,
- .tiltle {
+.tiltle {
   text-align: center;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
- }
+}
 
 .details {
   font-weight: 400;
@@ -244,7 +244,7 @@ body {
 
 .project-button-2,
 .project-button-3 {
- margin-top: 30px;
+  margin-top: 30px;
 }
 
 .card-work {
@@ -288,6 +288,7 @@ body {
   border-radius: 8px;
   list-style: none;
 }
+
 .form-container {
   display: flex;
   flex-direction: column;
@@ -308,7 +309,7 @@ body {
   line-height: 52px;
   margin-left: 20px;
   margin-right: 20px;
-  color: #172B4D;
+  color: #172b4d;
   margin-bottom: 100px;
 }
 
@@ -317,7 +318,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
-} 
+}
 
 #name,
 #email,
@@ -330,7 +331,7 @@ body {
 }
 
 #message {
-  height: 114px; 
+  height: 114px;
   border: 1px solid #60c095;
 }
 
