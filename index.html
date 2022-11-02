@@ -55,13 +55,18 @@
               <a href="#"><img src="Images/angellist.png" alt="angellist" /></a>
             </li>
           </ul>
-
-          <button class="btn-icon">
-            <img class="Icon" src="Images/Disabled.png" alt="Normal Button" />
-          </button>
+          <div class="arrow">
+            <a href="#work-section">
+              <img
+                class="Icon"
+                src="./Images/Disabled.svg"
+                alt="Normal Button"
+              />
+            </a>
+          </div>
         </section>
 
-        <section class="work-section">
+        <section class="work-section" id="work-section">
           <!-- Section Intro -->
           <div class="work">
             <h1 class="Des">
@@ -170,7 +175,6 @@
         <!-- About me section -->
         <section class="about-me-container">
           <div class="about-me">
-            <div class="primary-text">
               <h1 class="About-me">About me</h1>
               <p class="support-text">
                 I can help you build a product , feature or website Look through
@@ -180,7 +184,6 @@
               <button class="project-button-2 project-button" type="button">
                 Get My Resume
               </button>
-            </div>
           </div>
           <!-- Language card -->
           <ul class="skills">
@@ -235,66 +238,74 @@
             </li>
           </ul>
         </section>
-        <div class="primary-text2">
-          <h2 class="support-text2">
+
+        <!-- Form section -->
+        <div class="form-container form">
+          <h1 class="form-intro">
             I'm always interested in hearing about new projects, so if you'd
             like to chat please get in touch.
-          </h2>
-        </div>
-
-        <div class="form">
-          <form>
-            <input type="text" id="fname" name="fname" placeholder="Fullname" />
-          </form>
-
-          <form>
+          </h1>
+          <form class="form" action="https://formspree.io/f/xpznoder" method="POST">
             <input
-              type="text"
-              id="eaddress"
-              name="eaddress"
+              id="name"
+              type="name"
+              name="name"
+              placeholder="Full name"
+              maxlength="30"
+              required
+            />
+            <br />
+
+            <input
+              id="email"
+              type="email"
+              name="email"
               placeholder="Email address"
+              required
             />
-          </form>
-        </div>
+            <br />
 
-        <div class="Enter">
-          <form>
-            <input
-              type="text"
-              id="enter text"
-              name="enter text"
+            <textarea
+              id="message"
+              name="message"
               placeholder="Enter text here"
-            />
+              maxlength="500"
+              required
+            ></textarea>
+            <br />
+
+            <button
+              class="project-button "
+              type="submit"
+            >
+              Get in touch
+            </button>
           </form>
+            <ul class="social-media2">
+              <li>
+                <a href="#"><img src="Images/twitter.png" alt="Twitter" /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="Images/Linkedin icon.png" alt="linkedin"
+                /></a>
+              </li>
+              <li>
+                <a href="#"><img src="Images/medium.png" alt="medium" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="Images/github.png" alt="github" /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="Images/angellist.png" alt="angellist"
+                /></a>
+              </li>
+            </ul>
+
+            <p>jacintangwu9900@gmail.com</p>
+          
         </div>
-
-        <section class="contact">
-          <button class="project-button-3 project-button" type="button">
-            Get in touch
-          </button>
-
-          <ul class="social-media2">
-            <li>
-              <a href="#"><img src="Images/twitter.png" alt="Twitter" /></a>
-            </li>
-            <li>
-              <a href="#"
-                ><img src="Images/Linkedin icon.png" alt="linkedin"
-              /></a>
-            </li>
-            <li>
-              <a href="#"><img src="Images/medium.png" alt="medium" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="Images/github.png" alt="github" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="Images/angellist.png" alt="angellist" /></a>
-            </li>
-          </ul>
-
-          <p class="supporting-text">jacintangwu9900@gmail.com</p>
-        </section>
       </main>
     </div>
   </body>
