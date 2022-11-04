@@ -4,7 +4,7 @@
     <title>Portfolio-Mobile-First</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -16,65 +16,70 @@
     <div class="wrapper">
       <header class="navbar">
         <div class="logo">Welcome</div>
-        <i class="fa-solid fa-bars dark-blue"></i>
+        <nav id="menu">
+          <ul id="menu-list">
+            <li><a href="#index.html">Porfolio</a></li>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#forms-section">Contact</a></li>
+          </ul>
+        </nav>
+        <nav class="hamburger-menu">
+          <i class="fa-solid fa-bars dark-blue"></i>
+        </nav>
       </header>
       <main>
+        <!-- Headline section -->
         <section class="headline">
           <div class="content">
-            <h1 class="title">
-              Hey there. I'm <br />
-              Jacinta
-            </h1>
-            <h2 class="tiltle">
-              I'm a software <br />
-              developer
-            </h2>
+            <h1 class="title">Hey there. I'm Jacinta.</h1>
+            <h2 class="title2">I'm a software developer</h2>
             <p class="details">
               I can help you build a product , feature or website Look through
               some of my work and experience! If you like what you see and have
               a project you need coded, don’t hestiate to contact me.
             </p>
-          </div>
 
-          <ul class="social-media">
-            <li>
-              <a href="#"><img src="Images/twitter.png" alt="Twitter" /></a>
-            </li>
-            <li>
-              <a href="#"
-                ><img src="Images/Linkedin icon.png" alt="linkedin"
-              /></a>
-            </li>
-            <li>
-              <a href="#"><img src="Images/medium.png" alt="medium" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="Images/github.png" alt="github" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="Images/angellist.png" alt="angellist" /></a>
-            </li>
-          </ul>
-          <div class="arrow">
-            <a href="#work-section">
-              <img
-                class="Icon"
-                src="./Images/Disabled.svg"
-                alt="Normal Button"
-              />
-            </a>
+            <ul class="social-media">
+              <li>
+                <a href="#"><img src="Images/twitter.png" alt="Twitter" /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="Images/Linkedin icon.png" alt="linkedin"
+                /></a>
+              </li>
+              <li>
+                <a href="#"><img src="Images/medium.png" alt="medium" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="Images/github.png" alt="github" /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="Images/angellist.png" alt="angellist"
+                /></a>
+              </li>
+            </ul>
+            <div class="arrow">
+              <a href="#work-section">
+                <img
+                  class="Icon"
+                  src="./Images/Disabled.svg"
+                  alt="Normal Button"
+                />
+              </a>
+            </div>
           </div>
         </section>
 
+        <!-- Project section -->
+        <div class="work">
+          <h1 class="description">My Recent Works</h1>
+          <img class="indicator" src="Images/Indicator.png" alt="Indicator" />
+        </div>
         <section class="work-section" id="work-section">
-          <!-- Section Intro -->
-          <div class="work">
-            <h1 class="Des">
-              My Recent <br />
-              Works
-            </h1>
-            <img class="Ind" src="Images/Indicator.png" alt="Indicator" />
-          </div>
           <!-- Card one -->
           <div class="Work margin-section">
             <div class="Text">
@@ -175,15 +180,15 @@
         <!-- About me section -->
         <section class="about-me-container">
           <div class="about-me">
-              <h1 class="About-me">About me</h1>
-              <p class="support-text">
-                I can help you build a product , feature or website Look through
-                some of my work and experience! If you like what you see and
-                have a project you need coded, don’t hestiate to contact me.
-              </p>
-              <button class="project-button-2 project-button" type="button">
-                Get My Resume
-              </button>
+            <h1 class="About-me">About me</h1>
+            <p class="support-text">
+              I can help you build a product , feature or website Look through
+              some of my work and experience! If you like what you see and have
+              a project you need coded, don’t hestiate to contact me.
+            </p>
+            <button class="project-button-2 project-button" type="button">
+              Get My Resume
+            </button>
           </div>
           <!-- Language card -->
           <ul class="skills">
@@ -241,11 +246,15 @@
 
         <!-- Form section -->
         <div class="form-container form">
-          <h1 class="form-intro">
+          <h4 class="form-intro" id="outro">
             I'm always interested in hearing about new projects, so if you'd
             like to chat please get in touch.
-          </h1>
-          <form class="form" action="https://formspree.io/f/xpznoder" method="POST">
+          </h4>
+          <form
+            class="form"
+            action="https://formspree.io/f/xpznoder"
+            method="POST"
+          >
             <input
               id="name"
               type="name"
@@ -274,13 +283,8 @@
             ></textarea>
             <br />
 
-            <button
-              class="project-button "
-              type="submit"
-            >
-              Get in touch
-            </button>
-          </form>
+            <button class="project-button" type="submit">Get in touch</button>
+
             <ul class="social-media2">
               <li>
                 <a href="#"><img src="Images/twitter.png" alt="Twitter" /></a>
@@ -304,9 +308,33 @@
             </ul>
 
             <p>jacintangwu9900@gmail.com</p>
-          
+          </form>
         </div>
       </main>
+
+      <!-- Footer -->
+      <footer>
+        <ul class="social-media2">
+          <li>
+            <a href="#"><img src="Images/github.png" alt="github" /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="Images/Linkedin icon.png" alt="linkedin"
+            /></a>
+          </li>
+          <li>
+            <a href="#"><img src="Images/angellist.png" alt="angellist" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="Images/twitter.png" alt="Twitter" /></a>
+          </li>
+
+          <li>
+            <a href="#"><img src="Images/medium.png" alt="medium" /></a>
+          </li>
+        </ul>
+      </footer>
     </div>
   </body>
 </html>
