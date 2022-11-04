@@ -8,11 +8,12 @@
 }
 
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-family: "Poppins", sans-serif;
-  background: #e5e5e5;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar {
@@ -27,10 +28,8 @@ body {
   font-size: 20px;
 }
 
-.wrapper {
-  width: 375px;
-  height: 6715px;
-  background: #fff;
+#menu-list {
+  display: none;
 }
 
 .content {
@@ -38,7 +37,7 @@ body {
   align-items: center;
 }
 
-.tiltle {
+.title2 {
   color: #36b37e;
   text-align: center;
 }
@@ -50,7 +49,7 @@ body {
 }
 
 .title,
-.tiltle {
+.title2 {
   text-align: center;
   font-weight: 700;
   font-size: 40px;
@@ -131,7 +130,7 @@ body {
   gap: 28px;
 }
 
-.Des {
+.description {
   height: 97px;
   font-weight: 700;
   font-size: 40px;
@@ -340,4 +339,135 @@ body {
   font-size: 15px;
   font-weight: 200;
   margin-top: 5px;
+}
+
+/* Desktop version Media Queries */
+@media only screen and (min-width: 768px) {
+  
+  .navbar {
+    position: absolute;
+    align-self: center;
+    height: 72px;
+  }
+
+  .logo,
+  .hamburger-menu {
+    display: none;
+  }
+
+  #menu {
+    display: flex;
+    width: 300px;
+  }
+
+  #menu-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  #menu-list li a {
+    text-decoration: none;
+    color: #8d96a7;
+  }
+
+  /* Headline section */
+  .content {
+    padding: 160px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .title { 
+    padding: 40px 0 10px 0;
+  }
+
+  .title2 br {
+    display: none;
+  }
+
+  .headline {
+    height: 1125px;
+    padding: auto;
+    background-image: url(./Images/Header-llustration-desktop.svg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .details {
+    padding-top: 20px;
+    max-width: 920px;
+  }
+
+  /* Project section */
+  .work img {
+    display: none;
+  }
+  .work-section,
+  #work-section { 
+    grid-template-columns: repeat(3, auto);
+  }
+
+  /* About me section */
+  .about-me {
+    background-image: url(./Images/illustration\ about\ me\ desktop.svg);
+    background-position: top;
+    background-size: 105%;
+  }
+
+  .about-me-container,
+  .About-me {
+    margin-top: 160px;
+  }
+
+  .support-text {
+    max-width: 920px;
+  }
+
+  .skills {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, auto);
+  }
+
+  /* Form section */
+  .form-container {
+    display: grid;
+    grid-template-columns: 453px 550px;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Images/Desktop\ -\ 4.svg);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 280px;
+  }
+
+  .form  button {
+    align-self: flex-start;
+  }
+
+  #outro {
+    text-align: justify;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .form p,
+  .form ul {
+    display: none;
+  }
+
+  /* Footer */
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #dfe1e6;
+    background: #fff;
+  }
 }
