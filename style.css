@@ -343,7 +343,6 @@ body {
 
 /* Desktop version Media Queries */
 @media only screen and (min-width: 768px) {
-  
   .navbar {
     position: absolute;
     align-self: center;
@@ -382,7 +381,7 @@ body {
     flex-direction: column;
   }
 
-  .title { 
+  .title {
     padding: 40px 0 10px 0;
   }
 
@@ -407,8 +406,9 @@ body {
   .work img {
     display: none;
   }
+
   .work-section,
-  #work-section { 
+  #work-section {
     grid-template-columns: repeat(3, auto);
   }
 
@@ -447,7 +447,7 @@ body {
     padding-bottom: 280px;
   }
 
-  .form  button {
+  .form button {
     align-self: flex-start;
   }
 
