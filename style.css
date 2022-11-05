@@ -63,9 +63,6 @@ body {
   color: #172849;
   text-align: center;
   padding-top: 50px;
-}
-
-.details {
   animation: 1s 2 slidein;
 }
 
@@ -74,6 +71,7 @@ body {
     margin: 0%;
     width: 100%;
   }
+
   to {
     margin: 100%;
     width: 300%;
@@ -395,9 +393,8 @@ body {
     background: black;
     color: #fff;
     rotate: 180deg;
-    transition-delay: o.5s;
+    transition-delay: o0.5s;
   }
-
 
   /* Headline section */
   .content {
