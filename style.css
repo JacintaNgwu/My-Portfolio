@@ -65,6 +65,21 @@ body {
   padding-top: 50px;
 }
 
+.details {
+  animation: 1s 3 slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 0%;
+    width: 100%;
+  }
+  to {
+    margin: 100%;
+    width: 200%;
+  }
+}
+
 .social-media,
 .social-media2 {
   display: flex;
