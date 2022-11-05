@@ -374,6 +374,15 @@ body {
     color: #8d96a7;
   }
 
+  #menu-list a:hover,
+  #menu-list a:focus {
+    background: black;
+    color: #fff;
+    rotate: 180deg;
+    transition-delay: o.5s;
+  }
+
+
   /* Headline section */
   .content {
     padding: 160px;
