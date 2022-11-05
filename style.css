@@ -63,6 +63,19 @@ body {
   color: #172849;
   text-align: center;
   padding-top: 50px;
+  animation: 1s 2 slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin: 0%;
+    width: 100%;
+  }
+
+  to {
+    margin: 100%;
+    width: 300%;
+  }
 }
 
 .social-media,
@@ -96,6 +109,7 @@ body {
   font-size: 20px;
   line-height: 28px;
   color: #28352f;
+  transform: rotate(45deg) translate(100px);
 }
 
 .icone-clos {
@@ -372,6 +386,14 @@ body {
   #menu-list li a {
     text-decoration: none;
     color: #8d96a7;
+  }
+
+  #menu-list a:hover,
+  #menu-list a:focus {
+    background: black;
+    color: #fff;
+    rotate: 180deg;
+    transition-delay: o0.5s;
   }
 
   /* Headline section */
