@@ -1,6 +1,9 @@
 # Portfolio-Mobile-first
 I created a "Portfolio-Mobile-first" repository in this project. Creating this project, my goal is to put the needs of mobile users first.
 
+# Link to online version:
+https://jacintangwu.github.io/Portfolio-Mobile-first/
+
 ## Built with
 1. HTML
 2. CSS
