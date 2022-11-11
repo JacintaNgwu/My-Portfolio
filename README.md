@@ -4,6 +4,9 @@ I created a "Portfolio-Mobile-first" repository in this project. Creating this p
 # Link to online version:
 https://jacintangwu.github.io/Portfolio-Mobile-first/
 
+# Loom walkthrough:
+https://www.loom.com/share/fbe1154a6e2e46668bf8b1cd66b699b3
+
 ## Built with
 1. HTML
 2. CSS
