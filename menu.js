@@ -7,6 +7,7 @@ const page = document.querySelectorAll(".list").length;
 function menuList() {
      openIcon.style.display = "none";
      closeIcon.style.display = "block";
+     closeIcon.style.color = "#67798e";
      document.querySelector(".main-content").style.visibility = "hidden";
      document.querySelector(".logo").style.visibility = "hidden";
      document.querySelector("#menu-list").style.display = "block";
