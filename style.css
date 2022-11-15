@@ -16,7 +16,6 @@ body {
   flex-direction: column;
 }
 
-
 .arrow {
   display: flex;
   align-items: center;
@@ -49,8 +48,6 @@ body {
 }
 
 .navbar {
-  /* display: flex; */
-  /* justify-content: space-between; */
   padding: 12px;
   align-items: center;
 }
@@ -61,7 +58,6 @@ body {
 }
 
 .hamburger {
-  /* padding: 10px 300px; */
   background-color: transparent;
   border: 0;
   cursor: pointer;
@@ -78,7 +74,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 25px;
-  /* text-decoration: none; */
   font-size: 32px;
 }
 
@@ -88,6 +83,7 @@ body {
 
 #menu-list li a {
   text-decoration: none;
+  color: #3a4a42;
 }
 
 .content {
