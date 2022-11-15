@@ -10,6 +10,7 @@ I created a "Portfolio-Mobile-first" repository in this project. Creating this p
 ## Built with
 1. HTML
 2. CSS
+3. JS
 
 ## Getting Started
 
