@@ -4,6 +4,7 @@
 I created a "Portfolio-Mobile-first" repository in this project. Creating this project, my goal is to put the needs of mobile users first.
 
 # Link to online version:
+
 ["click here"](https://jacintangwu.github.io/Portfolio-Mobile-first/)
 
 # Loom walkthrough:
@@ -12,6 +13,7 @@ I created a "Portfolio-Mobile-first" repository in this project. Creating this p
 ## Built with
 1. HTML
 2. CSS
+3. JS
 
 ## Getting Started
 
@@ -19,7 +21,7 @@ To get a local copy and running follow the following steps.
 
 1. Clone the app by running this command
 
-    git clone https://github.com/JacintaNgwu/Portfolio-Mobile-first.git
+    git clone ["Click here"](https://github.com/JacintaNgwu/Portfolio-Mobile-first.git)
 
 2. Navigate into the folder by running this command
 
