@@ -17,7 +17,7 @@ To get a local copy and running follow the following steps.
 
 1. Clone the app by running this command
 
-    git clone https://github.com/JacintaNgwu/Portfolio-Mobile-first.git
+    git clone ["Click here"](https://github.com/JacintaNgwu/Portfolio-Mobile-first.git)
 
 2. Navigate into the folder by running this command
 
