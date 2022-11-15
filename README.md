@@ -1,11 +1,13 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # Portfolio-Mobile-first
 I created a "Portfolio-Mobile-first" repository in this project. Creating this project, my goal is to put the needs of mobile users first.
 
 # Link to online version:
-https://jacintangwu.github.io/Portfolio-Mobile-first/
+["click here"](https://jacintangwu.github.io/Portfolio-Mobile-first/)
 
 # Loom walkthrough:
-https://www.loom.com/share/fbe1154a6e2e46668bf8b1cd66b699b3
+["see link"](https://www.loom.com/share/fbe1154a6e2e46668bf8b1cd66b699b3)
 
 ## Built with
 1. HTML
