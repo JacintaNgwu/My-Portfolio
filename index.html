@@ -15,21 +15,22 @@
   <body>
     <div class="wrapper">
       <header class="navbar">
-        <div class="logo">Welcome</div>
-        <nav id="menu">
+        <div class="hamburger">
+          <div class="logo">Welcome</div>
+           <a class="bars"><i class="fa-solid fa-bars dark-blue"></i></a>
+           <a class="mark"><i class="fa-sharp fa-solid fa-xmark"></i></a>
+        </div>
+        <nav id="menu" class="desktop-menu">
           <ul id="menu-list">
-            <li><a href="#index.html">Porfolio</a></li>
+            <li class="list"><a href="#work-section">Porfolio</a></li>
 
-            <li><a href="#about">About</a></li>
+            <li class="list"><a href="#about-me-container">About</a></li>
 
-            <li><a href="#forms-section">Contact</a></li>
+            <li class="list"><a href="#contact-form">Contact</a></li>
           </ul>
         </nav>
-        <nav class="hamburger-menu">
-          <i class="fa-solid fa-bars dark-blue"></i>
-        </nav>
       </header>
-      <main>
+      <main class="main-content">
         <!-- Headline section -->
         <section class="headline">
           <div class="content">
@@ -75,6 +76,7 @@
         </section>
 
         <!-- Project section -->
+        
         <div class="work">
           <h1 class="description">My Recent Works</h1>
           <img class="indicator" src="Images/Indicator.png" alt="Indicator" />
@@ -178,7 +180,7 @@
           </div>
         </section>
         <!-- About me section -->
-        <section class="about-me-container">
+        <section id="about-me-container">
           <div class="about-me">
             <h1 class="About-me">About me</h1>
             <p class="support-text">
@@ -245,6 +247,7 @@
         </section>
 
         <!-- Form section -->
+        <section id="contact-form">
         <div class="form-container form">
           <h4 class="form-intro" id="outro">
             I'm always interested in hearing about new projects, so if you'd
@@ -310,10 +313,11 @@
             <p>jacintangwu9900@gmail.com</p>
           </form>
         </div>
+      </section>
       </main>
 
       <!-- Footer -->
-      <footer>
+      <footer class="footer-content">
         <ul class="social-media2">
           <li>
             <a href="#"><img src="Images/github.png" alt="github" /></a>
@@ -336,5 +340,6 @@
         </ul>
       </footer>
     </div>
+    <script src="/menu.js" crossorigin="anonymous"></script>
   </body>
 </html>
