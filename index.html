@@ -177,6 +177,7 @@
               id="email"
               type="email"
               name="email"
+              class="email"
               placeholder="Email address"
               required
             />
@@ -185,14 +186,15 @@
             <textarea
               id="message"
               name="message"
+              class="message"
               placeholder="Enter text here"
               maxlength="500"
               required
             ></textarea>
             <br />
-
+            <p class="error-message" id="invalid" name="errorMessage"></p>
             <button class="project-button" type="submit">Get in touch</button>
-
+          </form>
             <ul class="social-media2">
               <li>
                 <a href="#"><img src="Images/twitter.png" alt="Twitter" /></a>
@@ -216,7 +218,6 @@
             </ul>
 
             <p>jacintangwu9900@gmail.com</p>
-          </form>
         </div>
       </section>
       <div class="modal"></div>
