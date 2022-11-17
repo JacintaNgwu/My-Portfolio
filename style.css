@@ -467,11 +467,24 @@ body {
   border: 1px solid #60c095;
 }
 
+#invalid {
+  display: block;
+  color: orangered;
+  font-size: 10px;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+}
+
 .form-container p {
   color: #425264;
   font-size: 15px;
   font-weight: 200;
   margin-top: 5px;
+}
+
+.footer-content {
+  display: none;
 }
 
 /* Desktop version Media Queries */
@@ -574,8 +587,6 @@ body {
     font-size: 20px;
     top: 2%;
     left: 93%;
-
-    /* cursor: pointer; */
   }
 
   .project-modal-image {
@@ -654,6 +665,10 @@ body {
     align-self: flex-start;
   }
 
+  #invalid {
+    font-size: 15px;
+  }
+
   #outro {
     text-align: justify;
     font-size: 25px;
@@ -666,7 +681,7 @@ body {
   }
 
   /* Footer */
-  footer {
+  .footer-content {
     display: flex;
     justify-content: center;
     align-items: center;
