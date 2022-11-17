@@ -126,13 +126,6 @@ const form = document.querySelector('.form');
 const email = document.querySelector('.email');
 const errorMessage = document.querySelector('.error-message');
 
-// form.addEventListener('submit', (event) => {
-//   if (email.value !== email.value.toLowerCase()) {
-//     event.preventDefault();
-//     errorMessage.classList.toggle('valid');
-//   }
-// });
-
 form.addEventListener('submit', (event) => {
   const strInput = email.value;
   if (/[A-Z]/.test(strInput)) {
@@ -141,3 +134,17 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
+
+// === Local data storage ===//
+form.addEventListener('input', () => {
+  const dataStorage = {
+    name: document.querySelector('.name').value,
+    email: document.querySelector('.email').value,
+    message: document.querySelector('.message').value,
+  };
+  localStorage.setItem('formStorage', JSON.stringify(dataStorage));
+});
+const getData = JSON.parse(localStorage.getItem('formStorage'));
+document.querySelector('.name').value = getData.name;
+document.querySelector('.email').value = getData.email;
+document.querySelector('.message').value = getData.message;
