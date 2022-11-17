@@ -120,3 +120,24 @@ seeProjectButton.forEach((button, index) => button.addEventListener('click', () 
   modalDiv.innerHTML += cardModal[index];
   closeProject();
 }));
+
+// ===contact form validation ===//
+const form = document.querySelector('.form');
+const email = document.querySelector('.email');
+const errorMessage = document.querySelector('.error-message');
+
+// form.addEventListener('submit', (event) => {
+//   if (email.value !== email.value.toLowerCase()) {
+//     event.preventDefault();
+//     errorMessage.classList.toggle('valid');
+//   }
+// });
+
+form.addEventListener('submit', (event) => {
+  const strInput = email.value;
+  if (/[A-Z]/.test(strInput)) {
+    errorMessage.innerHTML = 'Kindly check if the email is in lowercase';
+    errorMessage.classList.add('invalid');
+    event.preventDefault();
+  }
+});
