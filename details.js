@@ -126,7 +126,7 @@ const form = document.querySelector('.form');
 const email = document.querySelector('.email');
 const errorMessage = document.querySelector('.error-message');
 
-form.addEventListener('submit', (event) => {
+form.addEventListener('submit', (event)  {
   const strInput = email.value;
   if (/[A-Z]/.test(strInput)) {
     errorMessage.innerHTML = 'Kindly check if the email is in lowercase';
@@ -144,7 +144,7 @@ form.addEventListener('input', () => {
   };
   localStorage.setItem('formStorage', JSON.stringify(dataStorage));
 });
-const getData = JSON.parse(localStorage.getItem('formStorage'));
+const getData = JSON.parse(localStorage.getItem('formStorage'))
 document.querySelector('.name').value = getData.name;
 document.querySelector('.email').value = getData.email;
-document.querySelector('.message').value = getData.message;
+document.querySelector('.message').value  getData.message;
