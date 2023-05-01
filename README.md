@@ -1,11 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio-Mobile-first
-I created a "Portfolio-Mobile-first" repository in this project. Creating this project, my goal is to put the needs of mobile users first.
-
+# My-Portfolio
+My portfolio website showcases my skills, experience, and projects in a professional and minimalist design. Its responsive layout ensures it looks great on all devices. In addition, the website includes ways to connect with me, allowing for easy communication and collaboration.
 # Link to online version:
 
-["click here"](https://jacintangwu.github.io/Portfolio-Mobile-first/)
+["click here"](https://jacintangwu.github.io/My-Portfolio/)
 
 # Loom walkthrough:
 ["see link"](https://www.loom.com/share/fbe1154a6e2e46668bf8b1cd66b699b3)
@@ -21,7 +20,7 @@ To get a local copy and running follow the following steps.
 
 1. Clone the app by running this command
 
-    git clone ["Click here"](https://github.com/JacintaNgwu/Portfolio-Mobile-first.git)
+    git clone ["Click here"](https://github.com/JacintaNgwu/My-Portfolio.git)
 
 2. Navigate into the folder by running this command
 
@@ -56,18 +55,17 @@ You can run your test through the following process:
 
 ## Author
 
-👤 **jacinta Ngwu**
+👤 **Jacinta Ngwu**
 
-- GitHub: [@jacintangwu](https://github.com/JacintaNgwu/Hello-World.git)
+- GitHub: [@JacintaNgwu](https://github.com/JacintaNgwu)
 - Twitter: [@jacinta_ngwu](https://twitter.com/jacinta_ngwu)
-
-
+- LinkedIn: [jacinta_ngwu](https://www.linkedin.com/in/jacintangwu/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check for issues and contribute.
+Feel free to check for issues and contribute [issues page](https://github.com/JacintaNgwu/My-Portfolio/issues)
 
 ## Show your support
 
