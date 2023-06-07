@@ -1,10 +1,13 @@
 const myProject = [
   {
-    image: './Images/green-snapshot.svg',
-    title: 'Keeping track of hundreds of components',
-    language: ['Ruby on rails', 'Css', 'JavaScript', 'html'],
+    link: 'https://jacintangwu.github.io/Jaccy-Shopping-Website/',
+    source: 'https://github.com/JacintaNgwu/Jaccy-Shopping-Website.git',
+    image: './Images/Jaccywebsite.png',
+    title: 'Jaccy Shopping Website',
+    language: [ 'HTML', 'CSS', 'JavaScript'],
+    techstacks: ['Kanban', 'GitHub', 'BootStrap', 'Terminal', 'Git'],
     button: 'See project',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    description: "This project is a demo website for shopping all kinds of wears inspired by a design by Cindy Shin. It has the home and about pages with various sections and a responsive layout. It is mainly built with HTML, CSS and Vanilla JS",
 
   },
   {
