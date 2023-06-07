@@ -98,10 +98,10 @@ const cardModal = myProject.map((modal) => `
             </ul>
             </div>
             <div class="project-buttons">
-            <a class="button project-button" href="">See Live
+            <a class="button project-button" href="${modal.link}">See Live
             <img src="./Images/Icon-SeeLive.svg/Icon.svg">
             </a>
-            <a class="button project-button" href="">See Source
+            <a class="button project-button" href="${modal.source}">See Source
             <img src="./Images/Icon -GitHub.svg">
             </a>
             </div>
