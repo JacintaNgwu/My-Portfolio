@@ -59,10 +59,7 @@ workSection.innerHTML += myProject.map((project) => `
 <img  class="project-image" src='${project.image}'>
 
 <div class="Text">
-<h2 class="project-title">
-  ${project.title} <br />
-  Gain+Glory
-</h2>
+<h2 class="project-title">${project.title}</h2>
 <ul class="Program">
     ${project.language.map((technology) => `
         <li class="language">${technology}</li>
