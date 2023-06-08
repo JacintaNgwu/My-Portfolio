@@ -3,7 +3,7 @@ const myProject = [
     link: 'https://jacintangwu.github.io/Jaccy-Shopping-Website/',
     source: 'https://github.com/JacintaNgwu/Jaccy-Shopping-Website.git',
     image: './Images/Jaccywebsite.png',
-    title: 'Jaccy Shopping Website',
+    title: 'Shopping Website',
     language: [ 'HTML', 'CSS', 'JavaScript'],
     techstacks: ['Kanban', 'GitHub', 'BootStrap', 'Terminal', 'Git'],
     button: 'See project',
