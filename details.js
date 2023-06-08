@@ -11,7 +11,7 @@ const myProject = [
 
   },
   {
-    image: './Images/Snapshot.svg',
+    image: './Images/TvShow.png',
     title: 'Multi-Post Stories',
     language: ['Ruby on rails', 'Css', 'JavaScript', 'html'],
     button: 'See project',
