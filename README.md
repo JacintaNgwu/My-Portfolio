@@ -24,7 +24,7 @@ To get a local copy and running follow the following steps.
 
 2. Navigate into the folder by running this command
 
-    cd Portfolio-Mobile-first
+    cd My-Portfolio
 
 3. Install the dependencies by running this command
 
