@@ -31,11 +31,13 @@ const myProject = [
 
   },
   {
-    image: './Images/countries.png',
-    title: 'Multi-Post Stories',
-    language: ['Ruby on rails', 'Css', 'JavaScript', 'html'],
+    link: 'https://metrics-webapp-vyns.onrender.com/',
+    source: 'https://github.com/JacintaNgwu/Metrics-webapp.git',
+    image: './Images/Countries.png',
+    title: 'Metrics Webapp',
+    language: ['React', 'Redux', 'CSS', 'JavaScript'],
     button: 'See project',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    description: "This project is a mobile web application used to check a list of metrics (numeric values). It checks the country in Africa and counties details. It consist of home page and details page.",
 
   },
   {
