@@ -21,11 +21,13 @@ const myProject = [
 
   },
   {
+    link: 'https://math-magicians-o71b.onrender.com/quote',
+    source: 'https://github.com/JacintaNgwu/math-magicians.git',
     image: './Images/calculator.png',
-    title: 'Keeping track of hundreds of components',
-    language: ['GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+    title: 'Math Magicians',
+    language: ['HTML', 'CSS', 'Javascript', 'Bootstrap', 'React'],
     button: 'See project',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    description: "This project is a website for all fans of mathematics. It allows users to make simple calculations, and read a random math-related quote.",
 
   },
   {
