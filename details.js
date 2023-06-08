@@ -21,7 +21,7 @@ const myProject = [
 
   },
   {
-    image: './Images/Snapshot.svg',
+    image: './Images/calculator.png',
     title: 'Keeping track of hundreds of components',
     language: ['GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     button: 'See project',
