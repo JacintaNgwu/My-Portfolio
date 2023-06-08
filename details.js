@@ -33,7 +33,7 @@ const myProject = [
   {
     link: 'https://metrics-webapp-vyns.onrender.com/',
     source: 'https://github.com/JacintaNgwu/Metrics-webapp.git',
-    image: './Images/Countries.png',
+    image: './Images/Africacountries.png',
     title: 'Metrics Webapp',
     language: ['React', 'Redux', 'CSS', 'JavaScript'],
     button: 'See project',
