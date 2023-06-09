@@ -41,11 +41,13 @@ const myProject = [
 
   },
   {
-    image: './Images/Snapshot.svg',
-    title: 'Multi-Post Stories',
-    language: ['Ruby on rails', 'Css', 'JavaScript', 'html'],
+    link: 'https://jacintangwu.github.io/Leaderboard/dist/',
+    source: 'https://github.com/JacintaNgwu/Leaderboard.git',
+    image: './Images/leaderboard.png',
+    title: 'Leaderboard',
+    language: ['HTML', 'CSS', 'JavaScript', 'Webpack'],
     button: 'See project',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    description: "This project is a leaderboard website where users can view scores of players and interact by adding their scores. It also has a form for adding new players and preserving the data in the local storage.",
 
   },
   {
