@@ -11,6 +11,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
