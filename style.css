@@ -332,7 +332,7 @@ body {
   padding: 12px;
   bottom: 8px;
   border-radius: 5px;
-  border: 1px solid #36b37f;
+  border: none;
   cursor: pointer;
 }
 
