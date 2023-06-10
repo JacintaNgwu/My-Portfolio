@@ -57,7 +57,7 @@ const myProject = [
     title: 'Awesome Books',
     language: ['HTML', 'CSS', 'JavaScript', 'ES6', 'Webpack'],
     button: 'See project',
-    // description: "This project is an Awesome books website that displays a list of books and allows the addition and removal of books from the list.",
+    description: "This project is an Awesome books website that displays a list of books and allows the addition and removal of books from the list.",
   },
 ];
 
