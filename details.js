@@ -51,8 +51,8 @@ const myProject = [
 
   },
   {
-    // link: 'https://jacintangwu.github.io/Awesome-Books-ES6/',
-    // source: 'https://github.com/JacintaNgwu/Awesome-Books-ES6.git',
+    link: 'https://jacintangwu.github.io/Awesome-Books-ES6/',
+    source: 'https://github.com/JacintaNgwu/Awesome-Books-ES6.git',
     image: './Images/books.png',
     title: 'Awesome Books',
     language: ['HTML', 'CSS', 'JavaScript', 'ES6', 'Webpack'],
