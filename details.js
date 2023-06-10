@@ -51,13 +51,14 @@ const myProject = [
 
   },
   {
-    image: './Images/green-snapshot.svg',
-    title: 'Multi-Post Stories',
-    language: ['Ruby on rails', 'Css', 'JavaScript', 'html'],
+    // link: 'https://jacintangwu.github.io/Awesome-Books-ES6/',
+    // source: 'https://github.com/JacintaNgwu/Awesome-Books-ES6.git',
+    image: './Images/books.png',
+    title: 'Awesome Books',
+    language: ['HTML', 'CSS', 'JavaScript', 'ES6', 'Webpack'],
     button: 'See project',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    // description: "This project is an Awesome books website that displays a list of books and allows the addition and removal of books from the list.",
   },
-
 ];
 
 //= == Generating cards in project section dynamically===//
