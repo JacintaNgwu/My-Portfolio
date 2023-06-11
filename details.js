@@ -53,7 +53,7 @@ const myProject = [
   {
     link: 'https://jacintangwu.github.io/Awesome-Books-ES6/',
     source: 'https://github.com/JacintaNgwu/Awesome-Books-ES6.git',
-    image: './Images/books.png',
+    image: './Images/book.png',
     title: 'Awesome Books',
     language: ['HTML', 'CSS', 'JavaScript', 'ES6', 'Webpack'],
     button: 'See project',
