@@ -526,8 +526,6 @@ a {
 
   #menu-list a:hover,
   #menu-list a:focus {
-    background: black;
-    color: #fff;
     rotate: 360deg;
     transition-delay: o0.5s;
   }
