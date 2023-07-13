@@ -1,5 +1,15 @@
 const myProject = [
   {
+    link: 'https://deploy--fabulous-horse-dfd6cb.netlify.app/',
+    source: 'https://github.com/JacintaNgwu/HandyMate-Frontend.git',
+    image: './Images/Handymate.png',
+    title: 'HandyMate',
+    language: ['React', 'Rails', 'PostgreSQL','CSS', 'Bootstrap'],
+    button: 'See project',
+    description: "HandyMate is a website where users can book a service, cancel a booking. The user can also see the details of a service, ratings of the service.",
+
+  },
+  {
     link: 'https://jacintangwu.github.io/JavaScript-Capstone-Project/dist/',
     source: 'https://github.com/JacintaNgwu/JavaScript-Capstone-Project.git',
     image: './Images/TvShow.png',
@@ -18,16 +28,6 @@ const myProject = [
     techstacks: ['Kanban', 'GitHub', 'BootStrap', 'Terminal', 'Git'],
     button: 'See project',
     description: "This project is a demo website for shopping all kinds of wears inspired by a design by Cindy Shin. It has the home and about pages with various sections and a responsive layout. It is mainly built with HTML, CSS and Vanilla JS.",
-
-  },
-  {
-    link: 'https://deploy--fabulous-horse-dfd6cb.netlify.app/',
-    source: 'https://github.com/JacintaNgwu/HandyMate-Frontend.git',
-    image: './Images/Handymate.png',
-    title: 'HandyMate',
-    language: ['React', 'Rails', 'PostgreSQL','CSS', 'Bootstrap'],
-    button: 'See project',
-    description: "HandyMate is a website where users can book a service, cancel a booking. The user can also see the details of a service, ratings of the service.",
 
   },
   {
