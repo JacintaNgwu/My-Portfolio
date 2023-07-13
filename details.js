@@ -1,5 +1,15 @@
 const myProject = [
   {
+    link: 'https://jacintangwu.github.io/JavaScript-Capstone-Project/dist/',
+    source: 'https://github.com/JacintaNgwu/JavaScript-Capstone-Project.git',
+    image: './Images/TvShow.png',
+    title: 'Tv Show Website',
+    language: ['HTML', 'CSS', 'JavaScript', 'Webpack'],
+    button: 'See project',
+    description: "This project is a Tv show website where users can view popular Tv shows based on the list categories, and interact by liking and commenting.",
+
+  },
+  {
     link: 'https://jacintangwu.github.io/Jaccy-Shopping-Website/',
     source: 'https://github.com/JacintaNgwu/Jaccy-Shopping-Website.git',
     image: './Images/Jaccywebsite.png',
@@ -8,16 +18,6 @@ const myProject = [
     techstacks: ['Kanban', 'GitHub', 'BootStrap', 'Terminal', 'Git'],
     button: 'See project',
     description: "This project is a demo website for shopping all kinds of wears inspired by a design by Cindy Shin. It has the home and about pages with various sections and a responsive layout. It is mainly built with HTML, CSS and Vanilla JS.",
-
-  },
-  {
-    link: 'https://jacintangwu.github.io/JavaScript-Capstone-Project/dist/',
-    source: 'https://github.com/JacintaNgwu/JavaScript-Capstone-Project.git',
-    image: './Images/TvShow.png',
-    title: 'Tv Show Website',
-    language: ['HTML', 'CSS', 'JavaScript', 'Webpack'],
-    button: 'See project',
-    description: "This project is a Tv show website where users can view popular Tv shows based on the list categories, and interact by liking and commenting.",
 
   },
   {
