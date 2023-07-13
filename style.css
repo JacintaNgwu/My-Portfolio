@@ -52,8 +52,11 @@ a {
 }
 
 .navbar {
-  padding: 12px;
   align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  padding: 20px;
 }
 
 .fa-bars {
@@ -78,7 +81,7 @@ a {
   display: flex;
   flex-direction: column;
   margin: 25px;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 #menu-list {
@@ -246,7 +249,7 @@ a {
   list-style: none;
 }
 
-/* ====Project Info Card Dtart */
+/* ====Project Info Card Start */
 .project-card-bg {
   width: 100%;
   height: 100vh;
@@ -459,6 +462,12 @@ a {
   margin-right: 20px;
   color: #172b4d;
   margin-bottom: 100px;
+  transition: 500ms ease;
+}
+
+.form-intro:hover {
+  transform: scale(1.1);
+  transition: 500ms ease;
 }
 
 .form {
@@ -507,7 +516,7 @@ a {
 /* Desktop version Media Queries */
 @media only screen and (min-width: 768px) {
   .navbar {
-    position: absolute;
+    position: fixed;
     align-self: center;
     height: 72px;
   }
