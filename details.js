@@ -21,13 +21,13 @@ const myProject = [
 
   },
   {
-    link: 'https://math-magicians-o71b.onrender.com/quote',
-    source: 'https://github.com/JacintaNgwu/math-magicians.git',
-    image: './Images/calculator.png',
-    title: 'Math Magicians',
-    language: ['HTML', 'CSS', 'Javascript', 'Bootstrap', 'React'],
+    link: 'https://deploy--fabulous-horse-dfd6cb.netlify.app/',
+    source: 'https://github.com/JacintaNgwu/HandyMate-Frontend.git',
+    image: './Images/Handymate.png',
+    title: 'HandyMate',
+    language: ['React', 'Rails', 'PostgreSQL','CSS', 'Bootstrap'],
     button: 'See project',
-    description: "This project is a website for all fans of mathematics. It allows users to make simple calculations, and read a random math-related quote.",
+    description: "HandyMate is a website where users can book a service, cancel a booking. The user can also see the details of a service, ratings of the service.",
 
   },
   {
@@ -104,10 +104,10 @@ const cardModal = myProject.map((modal) => `
             </ul>
             </div>
             <div class="project-buttons">
-            <a class="button project-button" href="${modal.link}">See Live
+            <a class="button project-button" href="${modal.link}" target="_blank">See Live
             <img src="./Images/Icon-SeeLive.svg/Icon.svg">
             </a>
-            <a class="button project-button" href="${modal.source}">See Source
+            <a class="button project-button" href="${modal.source}" target="_blank">See Source
             <img src="./Images/Icon -GitHub.svg">
             </a>
             </div>
