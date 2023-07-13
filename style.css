@@ -90,6 +90,13 @@ a {
   color: #3a4a42;
 }
 
+#menu-list a:hover,
+#menu-list a:focus {
+  rotate: 360deg;
+  transition-delay: o0.5s;
+  color: #36b37e;
+}
+
 .content {
   justify-content: center;
   align-items: center;
@@ -206,6 +213,12 @@ a {
 .project-image {
   width: 100%;
   min-height: 222px;
+  transition: 500ms ease; 
+}
+
+.project-image:hover {
+  transform: scale(1.1);
+  transition: 500ms ease;
 }
 
 .project-title {
